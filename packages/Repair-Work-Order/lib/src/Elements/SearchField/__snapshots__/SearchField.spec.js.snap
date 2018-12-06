@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchField /> should render properly 1`] = `
+<div
+  className="text-input-container"
+>
+  <input
+    id="searchField"
+    onChange={[MockFunction]}
+    placeholder="placeholder"
+    style={
+      Object {
+        "marginLeft": "-66px",
+      }
+    }
+    type="text"
+    value="123"
+  />
+</div>
+`;

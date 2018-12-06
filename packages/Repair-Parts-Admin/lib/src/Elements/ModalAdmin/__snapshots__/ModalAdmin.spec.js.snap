@@ -1,0 +1,488 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalAdmin /> should render properly 1`] = `""`;
+
+exports[`<ModalAdmin /> should render properly 2`] = `
+<styled.div
+  className="modal-container"
+  modalType=""
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0,0.3)",
+      "bottom": 0,
+      "left": 0,
+      "padding": 50,
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="card modal"
+    id="modalID"
+    style={
+      Object {
+        "display": "block",
+        "left": "37%",
+        "padding": "",
+        "top": "30%",
+        "width": "500px",
+      }
+    }
+  >
+    <div
+      className="card-toolbar"
+      style={
+        Object {
+          "backgroundColor": "",
+          "color": "",
+          "marginBottom": 0,
+          "padding": "",
+        }
+      }
+    >
+      <span
+        className="card-title"
+      >
+        <h3>
+           Edit cost of part #123
+        </h3>
+      </span>
+      <i
+        className="icon_close"
+        onClick={[MockFunction]}
+      />
+    </div>
+    <div
+      className="card-content"
+      style={
+        Object {
+          "paddingRight": "20px",
+        }
+      }
+    >
+      content
+    </div>
+    <div
+      className="card-actions right"
+      style={
+        Object {
+          "margin": 0,
+          "padding": "10px",
+        }
+      }
+    >
+      <button
+        className="button"
+        id="close"
+        key="0"
+        onClick={[MockFunction]}
+      >
+        Cancel
+      </button>
+      <button
+        className="button primary"
+        id="save"
+        key="1"
+        onClick={[MockFunction]}
+      >
+        Save Item
+      </button>
+    </div>
+  </div>
+</styled.div>
+`;
+
+exports[`<ModalAdmin /> should render properly 3`] = `
+<styled.div
+  className="modal-container"
+  modalType="success"
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0,0.3)",
+      "bottom": 0,
+      "left": 0,
+      "padding": 50,
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="card modal"
+    id="modalID"
+    style={
+      Object {
+        "display": "block",
+        "left": "37%",
+        "padding": 0,
+        "top": "30%",
+        "width": "500px",
+      }
+    }
+  >
+    <div
+      className="card-toolbar"
+      style={
+        Object {
+          "backgroundColor": "#4DAA58",
+          "color": "#fff",
+          "marginBottom": 0,
+          "padding": "10px",
+        }
+      }
+    >
+      <span
+        className="card-title"
+      >
+        <h3>
+          <i
+            className="icon_check-circle-outlined"
+          />
+           Edit cost of part #123
+        </h3>
+      </span>
+      <i
+        className="icon_close"
+        onClick={[MockFunction]}
+      />
+    </div>
+    <div
+      className="card-content"
+      style={
+        Object {
+          "paddingRight": "20px",
+        }
+      }
+    >
+      content
+    </div>
+    <div
+      className="card-actions right"
+      style={
+        Object {
+          "margin": 0,
+          "padding": "10px",
+        }
+      }
+    >
+      <button
+        className="button"
+        id="close"
+        key="0"
+        onClick={[MockFunction]}
+      >
+        Cancel
+      </button>
+      <button
+        className="button primary"
+        id="save"
+        key="1"
+        onClick={[MockFunction]}
+      >
+        Save Item
+      </button>
+    </div>
+  </div>
+</styled.div>
+`;
+
+exports[`<ModalAdmin /> should render properly 4`] = `
+<styled.div
+  className="modal-container"
+  modalType="failure"
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0,0.3)",
+      "bottom": 0,
+      "left": 0,
+      "padding": 50,
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="card modal"
+    id="modalID"
+    style={
+      Object {
+        "display": "block",
+        "left": "37%",
+        "padding": 0,
+        "top": "30%",
+        "width": "500px",
+      }
+    }
+  >
+    <div
+      className="card-toolbar"
+      style={
+        Object {
+          "backgroundColor": "#DA3832",
+          "color": "#fff",
+          "marginBottom": 0,
+          "padding": "10px",
+        }
+      }
+    >
+      <span
+        className="card-title"
+      >
+        <h3>
+          <i
+            className="icon_ban"
+          />
+           Edit cost of part #123
+        </h3>
+      </span>
+      <i
+        className="icon_close"
+        onClick={[MockFunction]}
+      />
+    </div>
+    <div
+      className="card-content"
+      style={
+        Object {
+          "paddingRight": "20px",
+        }
+      }
+    >
+      content
+    </div>
+    <div
+      className="card-actions right"
+      style={
+        Object {
+          "margin": 0,
+          "padding": "10px",
+        }
+      }
+    >
+      <button
+        className="button"
+        id="close"
+        key="0"
+        onClick={[MockFunction]}
+      >
+        Cancel
+      </button>
+      <button
+        className="button primary"
+        id="save"
+        key="1"
+        onClick={[MockFunction]}
+      >
+        Save Item
+      </button>
+    </div>
+  </div>
+</styled.div>
+`;
+
+exports[`<ModalAdmin /> should render properly 5`] = `
+<styled.div
+  className="modal-container"
+  modalType="failure"
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0,0.3)",
+      "bottom": 0,
+      "left": 0,
+      "padding": 50,
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="card modal"
+    id="modalID"
+    style={
+      Object {
+        "display": "block",
+        "left": "37%",
+        "padding": 0,
+        "top": "0%",
+        "width": "500px",
+      }
+    }
+  >
+    <div
+      className="card-toolbar"
+      style={
+        Object {
+          "backgroundColor": "#DA3832",
+          "color": "#fff",
+          "marginBottom": 0,
+          "padding": "10px",
+        }
+      }
+    >
+      <span
+        className="card-title"
+      >
+        <h3>
+          <i
+            className="icon_ban"
+          />
+           Edit cost of part #123
+        </h3>
+      </span>
+      <i
+        className="icon_close"
+        onClick={[MockFunction]}
+      />
+    </div>
+    <div
+      className="card-content"
+      style={
+        Object {
+          "paddingRight": "20px",
+        }
+      }
+    >
+      content
+    </div>
+    <div
+      className="card-actions right"
+      style={
+        Object {
+          "margin": 0,
+          "padding": "10px",
+        }
+      }
+    >
+      <button
+        className="button"
+        id="close"
+        key="0"
+        onClick={[MockFunction]}
+      >
+        Cancel
+      </button>
+      <button
+        className="button primary"
+        id="save"
+        key="1"
+        onClick={[MockFunction]}
+      >
+        Save Item
+      </button>
+    </div>
+  </div>
+</styled.div>
+`;
+
+exports[`<ModalAdmin /> should render properly 6`] = `
+<styled.div
+  className="modal-container"
+  modalType="failure"
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0,0.3)",
+      "bottom": 0,
+      "left": 0,
+      "padding": 50,
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="card modal"
+    id="modalID"
+    style={
+      Object {
+        "display": "block",
+        "left": "37%",
+        "padding": 0,
+        "top": "0%",
+        "width": "500px",
+      }
+    }
+  >
+    <div
+      className="card-toolbar"
+      style={
+        Object {
+          "backgroundColor": "#DA3832",
+          "color": "#fff",
+          "marginBottom": 0,
+          "padding": "10px",
+        }
+      }
+    >
+      <span
+        className="card-title"
+      >
+        <h3>
+          <i
+            className="icon_ban"
+          />
+           Edit cost of part #123
+        </h3>
+      </span>
+      <i
+        className="icon_close"
+        onClick={[MockFunction]}
+      />
+    </div>
+    <div
+      className="card-content"
+      style={
+        Object {
+          "paddingRight": "20px",
+        }
+      }
+    >
+      content
+    </div>
+    <div
+      className="card-actions right"
+      style={
+        Object {
+          "margin": 0,
+          "padding": "10px",
+        }
+      }
+    >
+      <button
+        className="button"
+        disabled="disabled"
+        id="close"
+        key="0"
+        onClick={[MockFunction]}
+      >
+        Cancel
+      </button>
+      <button
+        className="button primary"
+        id="save"
+        key="1"
+        onClick={[MockFunction]}
+      >
+        Save Item
+      </button>
+    </div>
+  </div>
+</styled.div>
+`;
+
+exports[`<ModalAdmin /> should render properly 7`] = `
+.c0 .card .card-toolbar i {
+  color: #fff !important;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+<div
+  className="c0"
+/>
+`;

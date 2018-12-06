@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputFieldAdmin /> should render properly 1`] = `
+<div
+  className="text-input-container error"
+>
+  <input
+    id="cost"
+    name="cost"
+    onChange={[MockFunction]}
+    pattern="^d*(.d{0,2})?$"
+    placeholder="Enter cost here"
+    required="required"
+    type="number"
+    value=""
+  />
+  <label
+    htmlFor="cost"
+  >
+    Cost
+  </label>
+  <styled.div
+    zIndex={true}
+  >
+    <table
+      className="standard-table alternating-rows"
+      style={
+        Object {
+          "margin": "0",
+        }
+      }
+    >
+      <tbody>
+        <tr
+          key="0"
+          onClick={[Function]}
+        >
+          <td>
+             - 
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </styled.div>
+  <span
+    style={
+      Object {
+        "color": "#ed1c24",
+      }
+    }
+  />
+</div>
+`;

@@ -1,0 +1,1 @@
+require('./RepairPartsAdmin/RepairPartsAdmin.spec');

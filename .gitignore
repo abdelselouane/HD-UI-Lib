@@ -1,0 +1,12 @@
+**/node_modules
+**/coverage
+
+**/repair-ui-library-server/dist/
+
+.DS_Store
+build
+node_modules
+coverage
+errorShots
+reports
+*.log

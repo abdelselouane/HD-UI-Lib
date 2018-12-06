@@ -1,0 +1,461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RepairPartsAdmin /> should render properly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-12"
+    >
+      <h1
+        style={
+          Object {
+            "color": "#444",
+            "textAlign": "center",
+          }
+        }
+      >
+        Parts Admin
+      </h1>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-6"
+    >
+      <button
+        className="button primary md"
+        id="addNewPart"
+        onClick={[Function]}
+        style={
+          Object {
+            "margin": "0",
+          }
+        }
+      >
+        Add New Part
+      </button>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-12"
+    >
+      <SearchField
+        action={
+          Object {
+            "id": "searchLink",
+            "onClick": [Function],
+            "text": "Search",
+          }
+        }
+        input={
+          Object {
+            "id": "searchField",
+            "onChange": [Function],
+            "onKeyPress": [Function],
+            "placeholder": "Enter part number to update an existing part",
+            "type": "text",
+            "value": "",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-12"
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-12"
+    >
+      <ModalAdmin
+        actions={
+          Array [
+            Object {
+              "className": "button",
+              "id": "close",
+              "onClick": [Function],
+              "text": "Cancel",
+            },
+            Object {
+              "className": "button primary disabled",
+              "id": "save",
+              "onClick": [Function],
+              "text": "Save Item",
+            },
+          ]
+        }
+        content={
+          <InputFieldAdmin
+            field={
+              Object {
+                "id": "cost",
+                "name": "cost",
+                "onChange": [Function],
+                "pattern": "^d*(.d{0,2})?$",
+                "placeholder": "Enter cost here",
+                "required": "required",
+                "type": "number",
+                "value": "",
+              }
+            }
+            fieldError={
+              Object {
+                "flag": false,
+                "msg": "",
+              }
+            }
+            label={
+              Object {
+                "text": "Cost",
+              }
+            }
+          />
+        }
+        modal={
+          Object {
+            "id": "modalID",
+          }
+        }
+        show={false}
+        styles={
+          Object {
+            "height": "260px",
+            "width": "500px",
+          }
+        }
+        toolBar={
+          Object {
+            "onClick": [Function],
+            "title": "Edit cost of part #undefined",
+          }
+        }
+      />
+      <ModalAdmin
+        actions={
+          Array [
+            Object {
+              "className": "button",
+              "onClick": [Function],
+              "text": "Close",
+            },
+          ]
+        }
+        content={
+          <div>
+            <h3>
+              Part #
+            </h3>
+            <div
+              className="row"
+            >
+              <div
+                className="col-lg-3"
+              >
+                <label>
+                  Brand
+                </label>
+                <br />
+                <strong />
+              </div>
+              <div
+                className="col-lg-3"
+              >
+                <label>
+                  Description
+                </label>
+                <br />
+                <strong />
+              </div>
+              <div
+                className="col-lg-3"
+              >
+                <label>
+                  Supplier
+                </label>
+                <br />
+                <strong />
+              </div>
+              <div
+                className="col-lg-3"
+              >
+                <label>
+                  Cost
+                </label>
+                <br />
+                <strong>
+                  $undefined
+                </strong>
+              </div>
+            </div>
+          </div>
+        }
+        modal={
+          Object {
+            "id": "modalSuccessID",
+            "type": "success",
+          }
+        }
+        show={false}
+        styles={
+          Object {
+            "height": "300px",
+            "width": "600px",
+          }
+        }
+        toolBar={
+          Object {
+            "onClick": [Function],
+            "title": "Part Saved",
+          }
+        }
+      />
+      <ModalAdmin
+        actions={
+          Array [
+            Object {
+              "className": "button",
+              "onClick": [Function],
+              "text": "Close",
+            },
+          ]
+        }
+        content={
+          <div>
+            <h3>
+              Part #
+            </h3>
+            <div
+              className="row"
+            >
+              <div
+                className="col-lg-12"
+              >
+                <h5>
+                  ERROR: Please contact the repair team.
+                </h5>
+              </div>
+            </div>
+          </div>
+        }
+        modal={
+          Object {
+            "id": "modalFailureID",
+            "type": "failure",
+          }
+        }
+        show={false}
+        styles={
+          Object {
+            "height": "300px",
+            "width": "600px",
+          }
+        }
+        toolBar={
+          Object {
+            "onClick": [Function],
+            "title": "Error",
+          }
+        }
+      />
+      <ModalAdmin
+        actions={
+          Array [
+            Object {
+              "className": "button",
+              "onClick": [Function],
+              "text": "Cancel",
+            },
+            Object {
+              "className": "button primary",
+              "id": "savePart",
+              "onClick": [Function],
+              "text": "Save Part",
+            },
+          ]
+        }
+        content={
+          <div>
+            <InputFieldAdmin
+              field={
+                Object {
+                  "id": "partNumberInput",
+                  "name": "partNumberInput",
+                  "onChange": [Function],
+                  "placeholder": "Enter Part Number",
+                  "required": "required",
+                  "title": "Part Number",
+                  "type": "text",
+                  "value": "",
+                }
+              }
+              fieldError={
+                Object {
+                  "flag": false,
+                  "msg": "",
+                }
+              }
+              label={
+                Object {
+                  "text": "Part Number",
+                }
+              }
+            />
+            <InputFieldAdmin
+              field={
+                Object {
+                  "id": "descriptionInput",
+                  "name": "descriptionInput",
+                  "onChange": [Function],
+                  "placeholder": "Enter Description",
+                  "required": "required",
+                  "title": "Description",
+                  "type": "text",
+                  "value": "",
+                }
+              }
+              fieldError={
+                Object {
+                  "flag": false,
+                  "msg": "",
+                }
+              }
+              label={
+                Object {
+                  "text": "Description",
+                }
+              }
+            />
+            <InputFieldAdmin
+              dropDownData={Array []}
+              field={
+                Object {
+                  "id": "brand",
+                  "name": "brandInput",
+                  "onChange": [Function],
+                  "placeholder": "Enter Brand",
+                  "required": "required",
+                  "title": "Brand",
+                  "type": "text",
+                  "value": "",
+                }
+              }
+              fieldError={
+                Object {
+                  "flag": false,
+                  "msg": "",
+                }
+              }
+              handleSelectedItem={[Function]}
+              label={
+                Object {
+                  "text": "Brand",
+                }
+              }
+              toDisplay={
+                Array [
+                  "brandNumber",
+                  "brandName",
+                ]
+              }
+              zIndex={true}
+            />
+            <InputFieldAdmin
+              dropDownData={Array []}
+              field={
+                Object {
+                  "id": "supplier",
+                  "name": "supplierInput",
+                  "onChange": [Function],
+                  "placeholder": "Enter Supplier",
+                  "required": "required",
+                  "title": "Supplier",
+                  "type": "text",
+                  "value": "",
+                }
+              }
+              fieldError={
+                Object {
+                  "flag": false,
+                  "msg": "",
+                }
+              }
+              handleSelectedItem={[Function]}
+              label={
+                Object {
+                  "text": "Supplier",
+                }
+              }
+              toDisplay={
+                Array [
+                  "supplierNumber",
+                  "supplierName",
+                ]
+              }
+              zIndex={true}
+            />
+            <InputFieldAdmin
+              field={
+                Object {
+                  "id": "cost",
+                  "name": "cost",
+                  "onChange": [Function],
+                  "pattern": "^d*(.d{0,2})?$",
+                  "placeholder": "Enter cost here",
+                  "required": "required",
+                  "type": "number",
+                  "value": "",
+                }
+              }
+              fieldError={
+                Object {
+                  "flag": false,
+                  "msg": "",
+                }
+              }
+              label={
+                Object {
+                  "text": "Cost",
+                }
+              }
+            />
+          </div>
+        }
+        modal={
+          Object {
+            "id": "modalAddPartID",
+          }
+        }
+        show={false}
+        styles={
+          Object {
+            "height": "600px",
+            "top": "20%",
+            "width": "500px",
+          }
+        }
+        toolBar={
+          Object {
+            "onClick": [Function],
+            "title": "New Part",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

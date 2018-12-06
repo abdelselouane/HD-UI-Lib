@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RepairWorkOrder /> should render properly 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <div
+      className="row center-lg"
+    >
+      <div
+        className="col-lg-12"
+      >
+        <h1
+          className="workOrders-text"
+        >
+          Work Order Search Test
+        </h1>
+      </div>
+    </div>
+    <div
+      className="row center-lg"
+    >
+      <div
+        className="col-lg-2"
+      >
+        <DropdownField
+          dropdownOpen={false}
+          handleSelectedItem={[Function]}
+          id="dropDown"
+          items={
+            Array [
+              Object {
+                "id": 0,
+                "option": "Work Order",
+                "value": "",
+              },
+            ]
+          }
+          label=""
+          selectedItem={
+            Object {
+              "id": 0,
+              "option": "Work Order",
+              "value": "",
+            }
+          }
+        />
+      </div>
+      <div
+        className="col-lg-6"
+      >
+        <SearchField
+          input={
+            Object {
+              "id": "searchField",
+              "onChange": [Function],
+              "placeholder": "#SSSSSAAAAAXXXXX",
+              "type": "text",
+              "value": "",
+            }
+          }
+        />
+      </div>
+      <div
+        className="col-lg-1"
+      >
+        <div
+          style={
+            Object {
+              "backgroundColor": "#fbfbfb",
+              "border": "1px solid #ccc",
+              "color": "rgb(255, 120, 73)",
+              "font": "18px",
+              "marginLeft": "-66px",
+              "marginTop": "22px",
+              "minHeight": "46px",
+              "padding": "9px 15px",
+              "position": "relative",
+              "width": "120px",
+            }
+          }
+        >
+          <a
+            style={
+              Object {
+                "cursor": "pointer",
+                "fontSize": "18px",
+                "fontWeight": "500",
+                "textDecoration": "none",
+              }
+            }
+          >
+             Search 
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row start-lg"
+    >
+      <div
+        className="col-lg-12"
+      >
+        <br />
+        <h2>
+          Open Work Orders
+        </h2>
+      </div>
+    </div>
+    <div
+      className="row end-lg"
+    >
+      <div
+        className="col-lg-12"
+      >
+        <button
+          className="button md primary"
+        >
+          New Work Order
+        </button>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

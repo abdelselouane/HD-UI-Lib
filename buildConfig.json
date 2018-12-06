@@ -1,0 +1,38 @@
+{
+  "projectInfo": {
+    "name": "Repair-UI-Library",
+    "versionStrategy": "tracker",
+    "fmsNumber": "IT-08044",
+    "cdTemplate": "CD0001212",
+    "language": "js"
+  },
+  "artifactoryConfig": {
+    "artifactoryDomain":
+      "https://npm.artifactory.homedepot.com/artifactory",
+    "artifactoryRepoKey": "npm",
+    "artifactoryRepoKeySnapshot": "npm",
+    "artifactoryGroup": "npm/.npm/repair-parts-admin/",
+    "artifactType": "tgz"
+  },
+  "fortify": {
+    "foldersToScan": "client/src",
+    "emailList": "sudhakar_badri_narayanan@homedepot.com"
+  },
+  "tracker": {
+    "projectId": 2145592,
+    "url": "https://www.pivotaltracker.com/n/projects/2145592"
+  },
+  "github": {
+    "org": "Repairs",
+    "repo": "Repair-UI-Library",
+    "URL": "https://github.homedepot.com/api/v3/repos"
+  },
+  "environments": {
+    "develop": {
+      "artifactCategory": "release",
+      "associatedBranchName": "master",
+      "snowfield-lifecycle": "uat",
+      "createChange": "False"
+    }
+  }
+}

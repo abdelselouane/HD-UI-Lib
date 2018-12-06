@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItem /> should render properly 1`] = `
+<div
+  className="card"
+  style={
+    Object {
+      "marginTop": "20px",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="card-body"
+  >
+    <h2
+      className="card-title"
+      style={
+        Object {
+          "color": "#f96302",
+        }
+      }
+    >
+      Part #
+      mockPartNumber1
+    </h2>
+    <div
+      className="row"
+    >
+      <div
+        className="col-lg-2"
+        key="0"
+      >
+        <label>
+          Brand
+        </label>
+        <div>
+          <strong>
+            mockBrandName1
+          </strong>
+        </div>
+      </div>
+      <div
+        className="col-lg-3"
+        key="1"
+      >
+        <label>
+          Description
+        </label>
+      </div>
+      <div
+        className="col-lg-2"
+        key="2"
+      >
+        <label>
+          Supplier
+        </label>
+        <div>
+          <strong>
+            mockSupplierName1
+          </strong>
+        </div>
+      </div>
+      <div
+        className="col-lg-2"
+        key="3"
+      >
+        <label>
+          Cost
+        </label>
+        <div>
+          <strong>
+            $
+            10
+          </strong>
+        </div>
+      </div>
+      <div
+        className="col-lg-3"
+        key="4"
+        style={
+          Object {
+            "textAlign": "right",
+          }
+        }
+      >
+        <button
+          className="button md"
+          id="part-mockPartNumber1"
+          key="0"
+          onClick={[MockFunction]}
+        >
+          Edit Part
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

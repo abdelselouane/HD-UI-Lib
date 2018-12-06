@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropdownField /> should render properly 1`] = `
+<DropdownField
+  dropdownOpen={false}
+  handleDropdownOpen={[MockFunction]}
+  handleSelectedItem={[MockFunction]}
+  id="dropDown"
+  items={
+    Array [
+      Object {
+        "id": 0,
+        "option": "Work Order",
+        "value": "",
+      },
+      Object {
+        "id": 1,
+        "option": "Item1",
+        "value": "Item1",
+      },
+      Object {
+        "id": 2,
+        "option": "Item2",
+        "value": "Item2",
+      },
+      Object {
+        "id": 3,
+        "option": "Item3",
+        "value": "Item3",
+      },
+    ]
+  }
+  label=""
+  selectedItem={
+    Object {
+      "id": 1,
+      "option": "Item1",
+      "value": "Item1",
+    }
+  }
+>
+  <div
+    className="dropdown-list false"
+    id="dropDown"
+    style={
+      Object {
+        "marginTop": "22px",
+      }
+    }
+  >
+    <label />
+    <div
+      className="dropdown-label"
+      tabIndex="0"
+    >
+      Item1
+    </div>
+    <div
+      className="dropdown-outer-list"
+    >
+      <ul
+        className="dropdown-inner-list"
+      >
+        <li
+          aria-selected={false}
+          className="dropdown-list-item"
+          id=""
+          key="0"
+          onClick={[MockFunction]}
+          tabIndex="-1"
+          title="Work Order"
+          value={0}
+        >
+          Work Order
+        </li>
+        <li
+          aria-selected={true}
+          className="dropdown-list-item"
+          id="Item1"
+          key="1"
+          onClick={[MockFunction]}
+          tabIndex="-1"
+          title="Item1"
+          value={1}
+        >
+          Item1
+        </li>
+        <li
+          aria-selected={false}
+          className="dropdown-list-item"
+          id="Item2"
+          key="2"
+          onClick={[MockFunction]}
+          tabIndex="-1"
+          title="Item2"
+          value={2}
+        >
+          Item2
+        </li>
+        <li
+          aria-selected={false}
+          className="dropdown-list-item"
+          id="Item3"
+          key="3"
+          onClick={[MockFunction]}
+          tabIndex="-1"
+          title="Item3"
+          value={3}
+        >
+          Item3
+        </li>
+      </ul>
+    </div>
+  </div>
+</DropdownField>
+`;

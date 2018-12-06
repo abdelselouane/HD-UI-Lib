@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchField /> should render properly 1`] = `
+<div
+  className="text-input-container"
+>
+  <input
+    id="searchField"
+    onChange={[MockFunction]}
+    placeholder="placeholder"
+    type="text"
+    value="123"
+  />
+  <a
+    id="searchLink"
+    onClick={[MockFunction]}
+    style={
+      Object {
+        "color": "#FF7849",
+        "cursor": "pointer",
+        "float": "right",
+        "fontSize": "20px",
+        "fontWeight": 500,
+        "marginLeft": "-80px",
+        "marginTop": "27px",
+        "padding": "5px",
+        "position": "absolute",
+        "textDecoration": "none",
+      }
+    }
+  >
+    Search
+  </a>
+</div>
+`;
